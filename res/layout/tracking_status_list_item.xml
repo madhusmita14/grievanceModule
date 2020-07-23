@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cardview1"
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="7dp"
+        card_view:contentPadding="7dp"
+        card_view:cardCornerRadius="7dp"
+        card_view:cardMaxElevation="7dp">
+
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/textViewTime"
+                    android:layout_width="150dp"
+                    android:textColor="@color/colorBlue"
+                    android:layout_height="wrap_content"
+                    android:text="Time"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:id="@+id/textViewStatus"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:text="Grievence status"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+        </TableLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

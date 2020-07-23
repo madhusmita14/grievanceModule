@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_logo_id"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorBlue"
+    app:popupTheme="@style/AppTheme">
+
+    <ImageView
+        android:id="@+id/arrow_img_toolbar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:text="Track Your Status"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"/>
+
+</androidx.appcompat.widget.Toolbar>
